@@ -3,23 +3,40 @@ ifndef::imagesdir[:imagesdir: ../images]
 [[section-introduction-and-goals]]
 == Introduction and Goals
 
-
+Sol4debt provides an easy way to track all types of debts, their costs, risks, and potential solutions in software projects.
+Our goal is to give teams and management a clear, understandable overview of existing debts and their impacts, as well as transparently present the savings from solutions to facilitate informed and economically sound decisions.
+It is inspired by aim42's debt management approach.
 
 === Requirements Overview
 
-
+* Track different kinds of debts in a *debt-backlog* and manage per dept long-term and short term...
+** costs (e.g. time, money, missed opportunity, resources, knowledge and learning, environmental impact, social costs, ...) ... per occurence or time period
+** risks (e.g. security, compliance, performance, disturbed processes, reputation, health, competitive disadvantage, ...)
+* Create reports and with visualizations of debts and risks with by interpolated occurrences/incidents and time periods
+* Keep track of potential solutions to debts in a separate *solution-backlog*
+* Link potential debts to solutions (n:m) and track them to show the savings from solutions
+* Integration with existing tools like Jira to track issues and debts in one place
+* Overall reporting and visualization of debts, risks, and solutions to facilitate informed decisions
+* Ability to "solve" debts or solutions
 
 === Quality Goals
 
-
+- **Functional Suitability (esp. correctness)**: The tool must support the tracking of different types of debts, their costs, risks, and potential solutions.
+- **Usability (esp. learnability)**: The tool must be user-friendly and intuitive to ensure broad adoption among different stakeholders.
+- **Compatibility (esp. interoperability)**: Easy integration with existing tools to track issues like Jira.
+- **Reliability (esp. fault Tolerance)**: The tool shold be able to work reliable even if connected systems got incompatible or unreliable interfaces.
+- **Maintainability (esp. modifiability)**: It should be easy to maintain and extend the tool for new types of "costs" and tracking systems.
 
 === Stakeholders
 
-
-
-[options="header",cols="1,2,2"]
+[options="header",cols="1,2"]
 |===
-|Role/Name|Contact|Expectations
-| _<Role-1>_ | _<Contact-1>_ | _<Expectation-1>_
-| _<Role-2>_ | _<Contact-2>_ | _<Expectation-2>_
+|Role/Name|Expectations
+| Software developer | Getting help to track and communicate technical debts in a way the management understands without getting lost in details.
+| Software Architect | Getting a clear overview of the technical debts and their impacts on the project and potential solutions
+| Project Manager | Simple reports as a basis for deciding whether and which solution measures should be taken
+| Consultants and External Auditors | Understanding the technical debts and their impacts on the project
+| Finance Department | Understanding the costs and savings of the technical debts and their solutions
+| Security Officer | Understanding and managing the security risks and their impacts on the project
+| Operations | Easy to operate, update, and maintain as well as integrate with existing tools
 |===

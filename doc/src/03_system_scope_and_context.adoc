@@ -3,24 +3,13 @@ ifndef::imagesdir[:imagesdir: ../images]
 [[section-system-scope-and-context]]
 == System Scope and Context
 
-
-
-
-
 === Business Context
 
+// inline plantuml exmaple
 
+plantuml::03_system_scope_and_context/context.puml[]
 
 **<Diagram or Table>**
 
 **<optionally: Explanation of external domain interfaces>**
 
-=== Technical Context
-
-
-
-**<Diagram or Table>**
-
-**<optionally: Explanation of technical interfaces>**
-
-**<Mapping Input/Output to Channels>**

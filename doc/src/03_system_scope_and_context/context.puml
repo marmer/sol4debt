@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/component-diagram
+
+actor "Software-Developer/Architects" as devs
+actor "Management" as management
+
+component sol4debt #BurlyWood
+
+component "issue Tracker" as issueTracker
+
+devs ..> sol4debt : Links to debts and solutions provided by\neither an external or directly in sol4debt
+management ..> sol4debt : gets enabled by reports and visualizations\nof debts and risks and their solutions
+
+sol4debt <--(0 issueTracker : provides separate lists of debts and solutions
+
+
+@enduml
