@@ -21,7 +21,6 @@ It is inspired by aim42's debt management approach.
 
 === Quality Goals
 
-- **Functional Suitability (esp. correctness)**: The tool must support the tracking of different types of debts, their costs, risks, and potential solutions.
 - **Usability (esp. learnability)**: The tool must be user-friendly and intuitive to ensure broad adoption among different stakeholders.
 - **Compatibility (esp. interoperability)**: Easy integration with existing tools to track issues like Jira.
 - **Reliability (esp. fault Tolerance)**: The tool shold be able to work reliable even if connected systems got incompatible or unreliable interfaces.
